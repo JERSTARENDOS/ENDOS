@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Printed T-shirt | RedStore</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="buy.css">
+</head>
+<body>
+    
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo.png" width="125px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="images/cart.png" width="30px" height="30px">
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            
+        </div>
+    </div>
+    <div class="container">
+        <h1>Red T-shirt</h1>
+        <div class="fixed-container">
+            <p>P uma customized Round Neck T Shirt- Red. <br>Puma is a German multinational corporation that designs and manufactures athletic and casual footwear, apparel and accessories</p>
+        </div>
+        <div class="col-2">
+            <img src="images/product-1.jpg">
+        </div>
+
+    
+        <div class="comment-section">
+            <!-- Existing comments -->
+            <h1 class="center-text">JJX comment section </h1>
+            <img src="images/ink_11055292.png" alt="logo" width="50px" height="50" class="center-image">
+            <div class="comment">
+                <strong>User1:</strong>
+                <p>THis is the first comment</p>
+            </div>
+            <div class="comment">
+                <strong>User2:</strong>
+                <p>This is the second comment.</p>
+            </div>
+        
+            <!-- Form for new comment -->
+            <form id="commentForm">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="comment">Comment:</label><br>
+                <textarea id="comment" name="comment" rows="4" cols="50" required></textarea><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+</body>
+</html>
